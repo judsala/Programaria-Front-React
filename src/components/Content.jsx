@@ -67,8 +67,8 @@ export function Content() {
   return (
     <>
       <Header
-        title='Mulheres em Tech Brasil'
-        subtitle='Conheça personalidades femininas que estão transformando a tecnologia no Brasil'
+        title='Minhas Séries'
+        subtitle='Organizador de Séries'
         image={listaImg}
       />
       <div className={styles.projectsContainer}>
@@ -94,7 +94,7 @@ export function Content() {
         </div>
       </div>
       <div >
-        <h2 className={styles.projectsTitle}>Cadastre uma rainha tech:</h2>
+        <h2 className={styles.projectsTitle}>Cadastre uma nova série:</h2>
         <form  className={styles.form} onSubmit={handleCreateMessage}>
           <input 
             onChange={handleInputValueNome} 
@@ -110,13 +110,13 @@ export function Content() {
           />
           <textarea 
             onChange={handleInputValueminibio} 
-            placeholder="Digite a minibiografia"
+            placeholder="Digite quantas temporadas essa série já tem"
             value={minibio}
             className={styles.formTextArea}
           />
           <textarea 
             onChange={handleInputValueCitacao} 
-            placeholder="Digite a citação"
+            placeholder="Digite em qual temporada você parou"
             value={citacao}
             className={styles.formTextArea}
           />
