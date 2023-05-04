@@ -67,7 +67,7 @@
   padding: 2rem;
 }
 
-.cardRepoText {
+.cardRepoText, .cardRepoQuote {
   color: #fff;
   text-overflow: "…";
   font-size: 1.2rem;
@@ -78,12 +78,6 @@
 .cardRepoImage {
   border-radius: 100%;
   width: 70%;
-}
-
-.cardRepoQuote {
-  color: #fff;
-  font-style: italic;
-  font-weight: lighter;
 }
 
 .removeTask {

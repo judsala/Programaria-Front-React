@@ -116,11 +116,11 @@ export function Content() {
           />
           <textarea 
             onChange={handleInputValueCitacao} 
-            placeholder="Digite em qual temporada você parou"
+            placeholder="Digite em qual temporada e episódio você parou"
             value={citacao}
             className={styles.formTextArea}
           />
-          <button className={styles.formButton} type="submit">Enviar mensagem</button>
+          <button className={styles.formButton} type="submit">Cadastrar Série</button>
           {success && <p>Cadastro realizado com sucesso.</p>}
         </form>
       </div>
